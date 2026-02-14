@@ -34,4 +34,5 @@ All six models were trained and evaluated on the same dataset using a 28% test s
 | kNN | **Weakest Performer**: The low accuracy (57.32%) suggests that simple distance metrics are less effective in this 20-dimensional feature space. |
 | Naive Bayes | **Strong Separator**: Despite simple assumptions, it maintained a high AUC (0.954), showing it can distinguish between price classes effectively. |
 | Random Forest (Ensemble) | **Robust Ensemble**: Successfully reduced variance of individual trees, providing very balanced precision and recall scores. |
-| XGBoost (Ensemble) | **Highly Efficient**: Second-best model (90.36%); the gradient boosting mechanism effectively minimized errors through iterative learning. |
+| XGBoost) | **Highly Efficient**: Second-best model (90.36%); the gradient boosting mechanism effectively minimized errors through iterative learning. |
+
